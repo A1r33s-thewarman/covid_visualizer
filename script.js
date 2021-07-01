@@ -32,6 +32,8 @@ function enter(country) {
         }
     });
 
+    //you can generate new key from rapidapi
+
     xhr.open("GET", "https://worldometers.p.rapidapi.com/api/coronavirus/country/" + country.name);
     xhr.setRequestHeader("x-rapidapi-key", "e6e2d369e1msh223179161d4eafbp119e8bjsnc4d8c2d3578f");
     xhr.setRequestHeader("x-rapidapi-host", "worldometers.p.rapidapi.com");
